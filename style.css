@@ -101,7 +101,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 370px;
     padding: 20px;
 }
 
@@ -132,12 +132,43 @@ button {
 .subtext {
     font-size: 18px;
     display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
+    justify-content: center;
+    height: 158px;
+    width: 1000px;
+    gap: 50px;
 }
 
 .subtext-one, .subtext-two, .subtext-three, .subtext-four{
-    height: 50px;
-    width: 170px;
+    height: 150px;
+    width: 150px;
+    
 }
 
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 34px;
+    height: 160px;
+    width: 780px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.name-container {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 700px;
+}
+
+.name {
+    font-size: 23px;
+}
